@@ -8,7 +8,9 @@ class StudentGrade
 		System.out.print("Enter the Percentage : ");
 		double percentage = sc.nextDouble();
 
-		if (percentage > 90)
+		if(percentage>100)
+			{System.out.println("Invalide Percentage");}
+		else if(percentage > 90)
 			{System.out.println("Student Gets First Class Distinction  with O Grade ");}
 		else if ( percentage >= 75 && percentage<90 )
 			{System.out.println("Student Gets Distinction with A+ Grade");}
