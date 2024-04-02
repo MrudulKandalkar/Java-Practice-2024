@@ -11,14 +11,15 @@ class FascinatingNumber
 		String concat= ""+num+num1+num2;
 		boolean flag1=true;
 		System.out.println(concat);
-		
+		//        1   
 		for (char c='1';c<='9' ;c++ ) 
 		{
 			int count=0;
+			 //           8<9                              384576192
 			for (int i=0;i<concat.length();i++ ) 
 			{
-				char a= concat.charAt(i);
-
+				char a= concat.charAt(i);// 8
+                   //==1
 				if(a==c)
 					count++;	
 			}
