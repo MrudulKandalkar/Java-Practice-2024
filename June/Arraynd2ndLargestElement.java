@@ -13,6 +13,23 @@ class Arraynd2ndLargestElement
 		{
 			arr[i]= sc.nextInt();
 		}
-		System.out.println(Arrays.toString(arr));
+		int temp=0;
+		for (int i=0;i<size;i++) 
+		{
+			for (int j=i+1;j<size ;j++) 
+			{
+				if (arr[i]<arr[j]) 
+				{
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+		}
+		int largest2nd=arr[1];
+
+	   System.out.println(Arrays.toString(arr));
+	   System.out.print("Second Largest In Array is : "+ largest2nd);
+
 	}
 }

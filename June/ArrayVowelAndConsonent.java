@@ -13,16 +13,6 @@ class ArrayVowelAndConsonent
 		{
 			arr[i]=sc.next().charAt(0);
 		}
-
-
-
-
-
-
-
-
-
-
 		int vCount=0;
 		int cCount=0;
 		for (int i=0;i<size;i++) 

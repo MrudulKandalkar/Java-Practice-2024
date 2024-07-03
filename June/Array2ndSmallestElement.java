@@ -1,5 +1,4 @@
 //wajp to fetch 2nd smallest element in the array
-//wajp to fetch 2nd largest element in the array
 import java.util.*;
 
 class Array2ndSmallestElement
